@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		8F9A05AA1E362FC200293644 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9A05A91E362FC200293644 /* AppDelegate.swift */; };
-		8F9A05AC1E362FC200293644 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9A05AB1E362FC200293644 /* ViewController.swift */; };
+		8F9A05AC1E362FC200293644 /* FeaturedAppsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9A05AB1E362FC200293644 /* FeaturedAppsController.swift */; };
 		8F9A05AF1E362FC200293644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9A05AD1E362FC200293644 /* Main.storyboard */; };
 		8F9A05B11E362FC200293644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F9A05B01E362FC200293644 /* Assets.xcassets */; };
 		8F9A05B41E362FC200293644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9A05B21E362FC200293644 /* LaunchScreen.storyboard */; };
+		8F9A05C11E363BCD00293644 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9A05C01E363BCD00293644 /* CategoryCell.swift */; };
+		8F9A05C31E36449400293644 /* AppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9A05C21E36449400293644 /* AppCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8F9A05A61E362FC200293644 /* AppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9A05A91E362FC200293644 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8F9A05AB1E362FC200293644 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F9A05AB1E362FC200293644 /* FeaturedAppsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedAppsController.swift; sourceTree = "<group>"; };
 		8F9A05AE1E362FC200293644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F9A05B01E362FC200293644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F9A05B31E362FC200293644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F9A05B51E362FC200293644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F9A05C01E363BCD00293644 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		8F9A05C21E36449400293644 /* AppCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				8F9A05AD1E362FC200293644 /* Main.storyboard */,
+				8F9A05C01E363BCD00293644 /* CategoryCell.swift */,
+				8F9A05C21E36449400293644 /* AppCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -81,7 +87,7 @@
 		8F9A05BD1E36343D00293644 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				8F9A05AB1E362FC200293644 /* ViewController.swift */,
+				8F9A05AB1E362FC200293644 /* FeaturedAppsController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -177,8 +183,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F9A05AC1E362FC200293644 /* ViewController.swift in Sources */,
+				8F9A05AC1E362FC200293644 /* FeaturedAppsController.swift in Sources */,
+				8F9A05C31E36449400293644 /* AppCell.swift in Sources */,
 				8F9A05AA1E362FC200293644 /* AppDelegate.swift in Sources */,
+				8F9A05C11E363BCD00293644 /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
